@@ -26,4 +26,6 @@ Manually replace the Molex and Dupont connectors with JST-XH connectors by cutti
 Another method would be to buy JST-XH 2.54mm Male wired cable connectors. Then cut, strip and solder and cover with shrink tube. This is probably as time consuming as crimping in the end. For some this is easier than crimping all those small pins to wires.
 Of all these methods the cheapest is to crimp your own, the easiest is to buy the Adaptrboards and the most expensive is to solder them up. The Adaptrboards also have the advantage in they address the induction probe without having to wire in additional components. But if you are in a hurry and want to upgrade now, these are your options.
 
-The Play Probe mount "Play probe mount4.stl" is for an 18mm inductive probe. The 8mm detection distance allows you to use a Ender 3/5 style magnetic removeable bed. This allows you to get rid of the Blue tape or PEI sheet.
+The Play Probe mount "Play probe mount4.stl" (newer version is Play probe mount5.stl) is for an 18mm inductive probe. The 8mm detection distance allows you to use a Ender 3/5 style magnetic removeable bed. This allows you to get rid of the Blue tape or PEI sheet. Still not completely happy with this probe mount. It needs to be flipped. 
+
+printrbot foot2.stl is taller foot pads printed from TPU to improve cooling
