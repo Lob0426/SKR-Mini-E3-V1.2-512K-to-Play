@@ -18,14 +18,19 @@ PC Communication interface: Mini USB type B @ 115200baud
 File format: G-code
 Recommended software: CURA, Simplify3D, Pronterface, Repetier-host, Makerware.
 
+1/5/21 Added a BTT TFT35 E3 V3.0 Touchscreen to the Play. This allows you to usea USB stick or a full size SD card print instead. Makes the Play a whole lot easier to use. But the adapter board allows you to also use the Bords MicroSD card as well.
+
 Connectors:
 Connector type; JST-XH 2.54mm : Example: JST-XH connector set on Amazon
 The Connectors on Printrbots are Molex(white) and Dupont(Black). To switch over to the SKR boards these have to be replaced or adapted to JST-XH connectors.
 The Adaptrboard set adapts the Printrbot connectors to the SKR. They are a set of boards with incoming and outgoing terminals. The outgoing side plugs in from the Printrbot appropriate components plugs (X axis, Y axis, Z axis, Hotend etc.). The incoming side is to the SKR board you chose. The incoming side has short extensions (100mm about 4") between the SKR board and the Adaptrboards.
 Manually replace the Molex and Dupont connectors with JST-XH connectors by cutting, stripping and crimping wires. 27 to 29 (1 fan, the hotend and the heated bed go into screw block and just need cutting and stripping) wires depending on whether you have a heated bed or not. Plus more if you have LEDS, NEOPixel, extra switches.
 Another method would be to buy JST-XH 2.54mm Male wired cable connectors. Then cut, strip and solder and cover with shrink tube. This is probably as time consuming as crimping in the end. For some this is easier than crimping all those small pins to wires.
+
 Of all these methods the cheapest is to crimp your own, the easiest is to buy the Adaptrboards and the most expensive is to solder them up. The Adaptrboards also have the advantage in they address the induction probe without having to wire in additional components. But if you are in a hurry and want to upgrade now, these are your options.
 
-The Play Probe mount "Play probe mount4.stl" (newer version is Play probe mount5.stl) is for an 18mm inductive probe. The 8mm detection distance allows you to use a Ender 3/5 style magnetic removeable bed. This allows you to get rid of the Blue tape or PEI sheet. Still not completely happy with this probe mount. It needs to be flipped. 
+The Play Probe mount "Play probe mount18mm6.stl" (added 1/13/21) is for an 18mm inductive probe. The 8mm detection distance allows you to use a Ender 3/5 style magnetic removeable bed. This allows you to get rid of the Blue tape or PEI sheet. I finished the mount and it was flipped over to grab farther up the probe for a better grip. The earlier versions were allowing the probe to slip up and cause hotend crashes and melting pits in the build surface. This mount allows the probe to fit under the stock hotend cover.
 
-printrbot foot2.stl is taller foot pads printed from TPU to improve cooling
+printrbot foot2.stl is taller foot pads printed from TPU to improve cooling.
+
+Overall the Play conversion has made it easier to use, easier to adjust and way quieter. It is what we see in Modern 3D printers produced today. It also has added safety as it has thermal overrun protection and resume after power outage. 
