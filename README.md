@@ -34,3 +34,5 @@ The Play Probe mount "Play probe mount18mm6.stl" (added 1/13/21) is for an 18mm 
 printrbot foot2.stl is taller foot pads printed from TPU to improve cooling.
 
 Overall the Play conversion has made it easier to use, easier to adjust and way quieter. It is what we see in Modern 3D printers produced today. It also has added safety as it has thermal overrun protection and resume after power outage. 
+
+For more information see the Adaptrboard Wiki: https://github.com/Lob0426/Adaptrboard/wiki
