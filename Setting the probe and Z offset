@@ -18,6 +18,6 @@ disappear on you after powering off. Saving it in the babystepping window never 
 
 Note:
 this is why I had to move up to a 18mm probe as the nozzle dug into the magnetic build surface before the probe would trigger. The build surface plus the magnetic base was
-too thick for the original 4mm detection distance of the 12mm probe. If your build surface adheres to the bed you will probably be OK with the original probe. But make sure you
-check for the probe being higher than the nozzle, so the probe clears your print, and that the nozzle clears the build surface so it will not ruin the surface. Make sure your
-probe is solidly mounted or you will ruin your new build surface, I learned this the hard way!
+too thick for the original 4mm detection distance of the 12mm probe. If your build surface adheres to the bed you will probably be OK with the original probe. But make sure
+you check for the probe being higher than the nozzle, so the probe clears your print, and that the nozzle clears the build surface so it will not ruin the surface. Make sure
+your probe is solidly mounted or you will ruin your new build surface, I learned this the hard way!
