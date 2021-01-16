@@ -1,0 +1,22 @@
+It is important to set your probe up properly. It is tempting to use the old printrbot method and use the plstic guage and this will worki if you intend to stick with Blue tape
+or with a Kapton/PEI Sheet. But if you want to upgrade to a newer build surface there is a better way. I wish I had been setting it up this way all along it faster and involves
+less work to get the Z-offset and probe into the right places.
+
+I take a piece of standard printer paper and place it under the nozzle. I turn the nozzle down until it just starts to drag as the paper (make sure the nozzle is clean first) is
+slid underneath it. I then loosen the probe clamp. All of this is done with the power off. Now plug in the printer. Move the probe up until the LED is off. Carefully move the
+probe down until the LED just turns on. Do this several times to get it as close to just coming on as you can. Now tighten the clamp. Wiggle the probe and see if the probe
+flashes on and off. If the LED goes off while you are tightening the clamp you may need to turn the probe down just a bit. You want it to be on when tight. Now turn the Z axis
+screw up and it should go off with only a bit of up. Make sure the probe is higher than your nozzle see Note.
+
+Now it is time to set your Z offset. I reccomend you use the good old 3mm high box for this that all of us are used to with printrbots. Warm up the nozzle to printing temp. Start
+the print. Watch you first layer. Use babystepping from the menu to adjust the Z height while the print is running. Print just the first layer then stop the print. Clear the bed
+and do it again until you get that first how you like it. Then let the print finish. Inspect the print, especiallly the bottom layer and the adhesion. NOW, VERY IMPORTANT: see
+what the Z height figure was when using babystepping. Remember it or write it down. Then go to settings, Machine, Parameters. Look for probe offsets. Set the Z probe offset, by
+hand, making sure it is a negative number. Then save this setting further down in the parameters menu. If you don't the Z offset will likely disappear on you after powering off.
+Saving it in the babystepping window never seems to work.
+
+Note:
+this is why I had to move up to a 18mm probe as the nozzle dug into the magnetic build surface before the probe would trigger. The build surface plus the magnetic base was
+too thick for the original 4mm detection distance of the 12mm probe. If your build surface adheres to the bed you will probably be OK with the original probe. But make sure you
+check for the probe being higher than the nozzle, so the probe clears your print, and that the nozzle clears the build surface so it will not ruin the surface. Make sure your
+probe is solidly mounted or you will ruin your new build surface, I learned this the hard way!
