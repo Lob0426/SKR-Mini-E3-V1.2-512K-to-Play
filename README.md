@@ -35,4 +35,4 @@ printrbot foot2.stl is taller foot pads printed from TPU to improve cooling.
 
 Overall the Play conversion has made it easier to use, easier to adjust and way quieter. It is what we see in Modern 3D printers produced today. It also has added safety as it has thermal overrun protection and resume after power outage. 
 
-For more information see the Adaptrboard Wiki: https://github.com/Lob0426/Adaptrboard/wiki
+For more information see the Wiki: https://github.com/Lob0426/SKR-Mini-E3-V1.2-512K-to-Play/wiki
